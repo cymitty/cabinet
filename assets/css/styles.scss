@@ -268,13 +268,18 @@ body {
         }
       }
       .quantity {
+        display: flex;
         margin: 5px auto;
       }
-
-      select {
-        width: 60px;
+      .quantity-decrease {
+        font-size: 30px;
       }
-
+      .quantity-value {
+        width: 50px;
+      }
+      .quantity-increase {
+        font-size: 30px;
+      }
       .add-to-basket {
         padding: 5px 7px;
         border: 1px solid $orange;

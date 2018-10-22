@@ -609,9 +609,14 @@ body {
       .pages .catalog .catalog-item .price:after {
         content: "\e905"; }
     .pages .catalog .catalog-item .quantity {
+      display: flex;
       margin: 5px auto; }
-    .pages .catalog .catalog-item select {
-      width: 60px; }
+    .pages .catalog .catalog-item .quantity-decrease {
+      font-size: 30px; }
+    .pages .catalog .catalog-item .quantity-value {
+      width: 50px; }
+    .pages .catalog .catalog-item .quantity-increase {
+      font-size: 30px; }
     .pages .catalog .catalog-item .add-to-basket {
       padding: 5px 7px;
       border: 1px solid #e3af55;

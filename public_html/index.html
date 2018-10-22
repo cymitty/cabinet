@@ -255,16 +255,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="1">
@@ -289,16 +284,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="2">
@@ -323,16 +313,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="3">
@@ -357,16 +342,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="4">
@@ -393,16 +373,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="1">
@@ -427,16 +402,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="2">
@@ -461,16 +431,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="3">
@@ -495,16 +460,11 @@
 
                                 </div>
                                 <div class="options">
-                                    <div class="price">
+                                    <div class="price" data-item-price="30000">
                                         30 000
                                     </div>
                                     <div class="quantity">
-                                        <select name="quantity" id="">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        <input class="quantity-value" type="number" name="quantity" min="1" max="100" value="1">
                                     </div>
                                     <div class="actions">
                                         <div class="add-to-basket" data-item-id="4">
@@ -526,14 +486,14 @@
 </div>
 <script>
     // pages switcher
-  const menuItems =     document.querySelectorAll('.sidebar ul li a');
+  const sidebarMenuItems =     document.querySelectorAll('.sidebar ul li a');
   const contentAreas =  document.querySelectorAll('.pages > div');
 
-  menuItems.forEach(function (item){
+  sidebarMenuItems.forEach(function (item){
     item.addEventListener('click', function (event) {
       event.preventDefault();
 
-      menuItems.forEach(function (item){
+      sidebarMenuItems.forEach(function (item){
         item.classList.remove('active');
       });// Убираем класс active с других ссылок
       this.classList.add('active');//текущему олставляем
@@ -561,7 +521,6 @@
         });// Уберем активный со всех элементов "тип категории"
         this.classList.add('active');//Покажем активный "тип категории"
 
-        console.log(catalogAreas);
         if (this.dataset.categoryId == "1") {
           catalogAreas[0].classList.add('show');
           catalogAreas[1].classList.remove('show');
@@ -571,25 +530,54 @@
         catalogAreas[1].classList.add('show');
       });
     });
+    //catalog quantity-input-checker
+    const quantityInputs = document.querySelectorAll('.quantity-value');
+    quantityInputs.forEach(function (input) {
+      input.addEventListener('change', function () {
+        if (typeof parseInt(this.value) === 'number') {
+          this.parentElement.previousElementSibling.innerText = this.parentElement.previousElementSibling.dataset.itemPrice * parseInt(this.value);
+        }
+      });
+      input.addEventListener('input', function () {
+        if (parseInt(this.value) < 1 || isNaN(parseInt(this.value))) {
+          this.value = 1;
+        }
+        if (parseInt(this.value) > 100) {
+          this.value = 100;
+        }
+        if (typeof parseInt(this.value) === 'number') {
+          this.parentElement.previousElementSibling.innerText = this.parentElement.previousElementSibling.dataset.itemPrice * parseInt(this.value);
+        }
+      });
+
+    });
+
     //catalog add to basket
     const addItemButtons = document.querySelectorAll('.add-to-basket');
-    var basketItems = [];
+    basketItems = localStorage.getItem('basketItems') ? JSON.parse(localStorage.getItem('basketItems')) : [];
     addItemButtons.forEach(function (button) {
       button.addEventListener('click', function () {
+        var itemQuantity =
+          this.parentElement.previousElementSibling.querySelector('.quantity-value').value;
         var existingItem = false;
+
         if ( localStorage.getItem('basketItems') != null) {// Если в корзине есть товары
           for (var key in basketItems) {
-            if (basketItems[key] == button.dataset.itemId) {
+            if (basketItems[key]['id'] == button.dataset.itemId) {
+              if (basketItems[key]['quantity'] != itemQuantity) {// Если количество поменялось
+                basketItems[key]['quantity'] = itemQuantity;
+                localStorage.setItem('basketItems', JSON.stringify(basketItems));
+              }
               existingItem = true;
             }
           }
           if (!existingItem) {
-            basketItems.push(button.dataset.itemId);
+            basketItems.push({id: button.dataset.itemId, quantity: itemQuantity});
             localStorage.setItem('basketItems', JSON.stringify(basketItems));
           }
         } else {
           // Если в корзина пуста
-          basketItems.push(button.dataset.itemId);
+          basketItems.push({id: button.dataset.itemId, quantity: itemQuantity});
           localStorage.setItem('basketItems', JSON.stringify(basketItems));
         }
 
